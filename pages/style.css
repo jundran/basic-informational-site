@@ -1,0 +1,9 @@
+body {
+	font-family: sans-serif;
+	margin: 64px;
+}
+
+a {
+	display: block;
+	margin-bottom: 16px;
+}
