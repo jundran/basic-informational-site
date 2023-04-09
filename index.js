@@ -18,7 +18,8 @@ createServer(async function (req, res) {
 	} catch (error) {
 		console.log(error)
 		if (!error.message.match(/no such file or directory/)) {
-			return res.end(500)
+			res.statusCode = 500
+			return res.end()
 		}
 
 		res.writeHead(404, { 'Content-Type': 'text/html' })
