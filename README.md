@@ -1,7 +1,7 @@
 # basic-informational-site
 
 ## Live
-https://replit.com/@jundran/basic-informational-site
+https://basic-informational-site.jundran.repl.co
 
 ## Description
 TOP - Basic Informational Site project  
